@@ -664,3 +664,394 @@ name: Meni Rotblat.
 date: 2023-01-23 02:14:59.270400. 
 description: test pass => function: drive params: raise.
                      
+name: Meni Rotblat.
+date: 2023-01-23 09:49:42.339469. 
+description: test pass => function: test_start_engine, params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 09:50:04.082223. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 09:52:18.409583. 
+description: test pass => function: test_start_engine, params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 09:52:18.411583. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 09:52:18.413591. 
+description: test pass => function: shift_up
+, params: raise except OverflowError
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 09:52:18.415583. 
+description: test pass => function: shift_down
+, params: raise except OverflowError, gear, shift_up
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 09:52:18.419585. 
+description: test pass => function: break_d
+, params: ('kph', 'gear\n').
+                     
+name: Meni Rotblat.
+date: 2023-01-23 09:52:18.422585. 
+description: test pass => function: get_properties
+, params: get_properties.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 09:52:18.424591. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 09:52:18.426591. 
+description: test pass => function: drive params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:23:58.255041. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:23:58.259041. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:23:58.262063. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:26:49.808365. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:26:49.812605. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:26:49.818622. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:26:49.821620. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:28:12.873782. 
+description: test fail => function: drive,
+ params: raise
+ details: assert 995 == 5
+ +  where 995 = <Car.car.Car object at 0x000002A7CCDB8A00>.km.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:28:12.877390. 
+description: test fail => function: drive,
+ params: raise
+ details: assert 5 == 995
+ +  where 5 = <Car.car.Car object at 0x000002A7CCDB8910>.km.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:28:12.879929. 
+description: test fail => function: drive,
+ params: raise
+ details: assert 995 == 5
+ +  where 995 = <Car.car.Car object at 0x000002A7CCDB8E20>.km.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:28:12.883930. 
+description: test fail => function: drive,
+ params: raise
+ details: assert 1000 == 0
+ +  where 1000 = <Car.car.Car object at 0x000002A7CCDB8B50>.km.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:31:49.276261. 
+description: test fail => function: drive,
+ params: raise
+ details: assert 995 == 5
+ +  where 995 = <Car.car.Car object at 0x0000024596C59E40>.km.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:31:49.279279. 
+description: test fail => function: drive,
+ params: raise
+ details: assert 5 == 995
+ +  where 5 = <Car.car.Car object at 0x0000024596C59FC0>.km.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:31:49.283265. 
+description: test fail => function: drive,
+ params: raise
+ details: assert 995 == 5
+ +  where 995 = <Car.car.Car object at 0x0000024596C5A140>.km.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:31:49.286272. 
+description: test fail => function: drive,
+ params: raise
+ details: assert 1000 == 0
+ +  where 1000 = <Car.car.Car object at 0x0000024596C59F90>.km.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:32:00.986968. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:32:00.989966. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:32:00.994962. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:32:00.998964. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:33:26.663363. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:33:26.667898. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:33:26.671906. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:33:26.674912. 
+description: test fail => function: drive,
+ params: raise
+ details: 'int' object is not subscriptable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:40.663296. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:40.666378. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:40.669381. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:50.438601. 
+description: test pass => function: test_start_engine, params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:50.440598. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:50.442701. 
+description: test pass => function: shift_up
+, params: raise except OverflowError
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:50.444604. 
+description: test pass => function: shift_down
+, params: raise except OverflowError, gear, shift_up
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:50.446605. 
+description: test pass => function: break_d
+, params: ('kph', 'gear\n').
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:50.450599. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:50.452599. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:50.454599. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 10:36:50.456599. 
+description: test pass => function: drive params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:12:03.080771. 
+description: test pass => function: break_d
+, params: ('kph', 'gear\n').
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:12:03.083773. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:12:03.085871. 
+description: test pass => function: get_properties
+, params: get_properties.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:12:03.087854. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:12:03.088855. 
+description: test pass => function: shift_down
+, params: raise except OverflowError, gear, shift_up
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:12:03.090853. 
+description: test pass => function: shift_up
+, params: raise except OverflowError
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:12:03.092771. 
+description: test pass => function: test_start_engine, params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:12:03.094771. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:35:16.697841. 
+description: test pass => function: kj params: break_d
+,.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:36:05.590810. 
+description: test pass => function:  params: break_d
+,.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:39:26.310171. 
+description: test pass => function:  params: test_start_engine,.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:55:48.218337. 
+description: test pass => function:  params: break_d
+,.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:55:48.221338. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:55:48.223337. 
+description: test pass => function:  params: get_properties
+,.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:55:48.225341. 
+description: test pass => function:  params: refueling.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:55:48.226850. 
+description: test pass => function:  params: shift_down
+,.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:55:48.228859. 
+description: test pass => function:  params: shift_up
+,.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:55:48.230357. 
+description: test pass => function:  params: test_start_engine,.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 11:55:48.231324. 
+description: test pass => function:  params: stop_engine.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:03:31.314306. 
+description: category must be a Warning subclass, not 'int'.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:06:05.041906. 
+description: category must be a Warning subclass, not 'int'.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:08:03.827058. 
+description: category must be a Warning subclass, not 'int'.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:08:20.837011. 
+description: category must be a Warning subclass, not 'int'.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:08:58.467714. 
+description: category must be a Warning subclass, not 'int'.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:12:17.282246. 
+description: category must be a Warning subclass, not 'int'.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:13:19.663352. 
+description: category must be a Warning subclass, not 'int'.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:14:29.887947. 
+description: category must be a Warning subclass, not 'str'.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:14:44.831026. 
+description: 'module' object is not callable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:14:56.759991. 
+description: expected string or bytes-like object.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:17:20.271529. 
+description: your fuel is up to 50 litter capacity.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:30:38.824986. 
+description: main exceptions ValueErr catching\n your fuel is up to 50 litter capacity.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:31:05.891652. 
+description: main exceptions ValueErr catching/n your fuel is up to 50 litter capacity.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:31:21.494423. 
+description: main exceptions ValueErr catching your fuel is up to 50 litter capacity.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 13:32:02.833520. 
+description: main exceptions ValueErr catching: your fuel is up to 50 litter capacity.
+                     

@@ -7,6 +7,7 @@ class Exceptions_logs:
         os.chdir("C:\Python\paiCharm\Car")
 
     def send(self, e):
+
         try:
             f = open('log.txt', 'a')
             if f.tell() > (1000 * 1024):

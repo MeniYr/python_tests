@@ -1,5 +1,6 @@
 import unittest
-import warnings
+
+import dotenv
 from dotenv import dotenv_values
 from Car.car import Car
 from Car.exceptions_loging import Exceptions_logs
@@ -8,11 +9,24 @@ from Car.exceptions_loging import Exceptions_logs
 class MyTestCase(unittest.TestCase):
 
     def setUp(self) -> None:
+        """
+            Name: Meni Rotblat.\n
+            Date: 22-01-2023. \n
+            Description: initial test page  \n
+            input:
+            output:
+            :return:
+        """
         self.car = Car()
         self.exc = Exceptions_logs()
-        self.config = dotenv_values("C:\Python\paiCharm\Car\.env")
+        self.config = dotenv_values(dotenv_path=dotenv.find_dotenv(".env"))
 
     def test_start_engine(self):
+        """
+            Name: Meni Rotblat.\n
+            Date: 22-01-2023. \n
+            Description: testing start engine func, so that engine up params changed \n
+        """
         try:
             self.car.start_engine()  # start angine
             self.assertEqual(self.car.engine_up, True)
@@ -25,6 +39,11 @@ class MyTestCase(unittest.TestCase):
                 self.config["ASSERT_FAIL"].format(f"test_start_engine,\n", "engine_up\n", ae))
 
     def test_stop_engine(self):
+        """
+            Name: Meni Rotblat.\n
+            Date: 22-01-2023. \n
+            Description: test start/stop engine and the gear that change  \n
+        """
         try:
             self.car.start_engine()  # test that after start and verify that, we stop the engine, and is down
             self.assertEqual(self.car.engine_up, True)
@@ -44,6 +63,11 @@ class MyTestCase(unittest.TestCase):
             self.exc.send(self.config["ASSERT_FAIL"].format(f"stop_engine,\n", "engine_up,\n", ae))
 
     def test_shift_up(self):
+        """
+            Name: Meni Rotblat.\n
+            Date: 22-01-2023. \n
+            Description: test shifting up overflow  \n
+        """
         try:
             with self.assertRaises(OverflowError):  # try to  get an error in 7 times upload gear
                 for i in range(7):
@@ -56,6 +80,11 @@ class MyTestCase(unittest.TestCase):
             self.exc.send(self.config["ASSERT_FAIL"].format(f"shift_up,\n", "raise except OverflowError\n", ae))
 
     def test_shift_down(self):
+        """
+            Name: Meni Rotblat.\n
+            Date: 22-01-2023. \n
+            Description: test shifting down overflow and changes  \n
+        """
         try:
             with self.assertRaises(OverflowError):  # try to get an error in 7 times bring down gear
                 self.car.shift_down()
@@ -75,6 +104,11 @@ class MyTestCase(unittest.TestCase):
                 self.config["ASSERT_FAIL"].format(f"shift_down,\n", "raise except OverflowError, gear, shift_up\n", ae))
 
     def test_break_d(self):
+        """
+            Name: Meni Rotblat.\n
+            Date: 22-01-2023. \n
+            Description: test shifting up overflow  \n
+        """
         try:
             self.car.kph = 60  # initialize kph for the test and check if they are offset right
             self.assertEqual(self.car.kph, 60)
@@ -93,6 +127,11 @@ class MyTestCase(unittest.TestCase):
                 self.config["ASSERT_FAIL"].format(f"break_d,\n", ("kph", "gear"), f" \n{ae}"))
 
     def test_get_properties(self):
+        """
+            Name: Meni Rotblat.\n
+            Date: 22-01-2023. \n
+            Description: test getting properties, type  \n
+        """
         try:
             self.assertEqual(self.car.get_properties(), print())  # test that method printed
             self.exc.send(self.config["TEST_PASS"].format("get_properties\n,", "get_properties"))
@@ -102,8 +141,12 @@ class MyTestCase(unittest.TestCase):
             self.exc.send(self.config["ASSERT_FAIL"].format(f"get_properties,\n", "get_properties", f" \n{ae}"))
 
     def test_refueling(self):
+        """
+            Name: Meni Rotblat.\n
+            Date: 22-01-2023. \n
+            Description: test refueling abilities: catching raises Values Error and type error\n
+        """
         try:
-
             with self.assertRaises(ValueError):
                 self.car.refueling(0)
             with self.assertRaises(ValueError):
@@ -120,6 +163,11 @@ class MyTestCase(unittest.TestCase):
             self.exc.send(self.config["ASSERT_FAIL"].format(f"refueling,\n", "raise,\n", ae))
 
     def test_drive(self):
+        """
+            Name: Meni Rotblat.\n
+            Date: 22-01-2023. \n
+            Description: test driving, error raises  \n
+        """
         try:
             self.car.drive(5)  # test driving that km is up
             self.assertEqual(self.car.km, 45)  # km is initial with 50

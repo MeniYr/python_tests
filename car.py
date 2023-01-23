@@ -5,9 +5,9 @@ import warnings
 
 class Car:
     """
-    name: Meni Rotblat
-    date: 22-01-2023,
-    description: class how generate a single car driving
+    name: Meni Rotblat\n
+    date: 22-01-2023,\n
+    description: class how generate a single car driving\n
     :parameter
         init:
             s - time object
@@ -35,9 +35,9 @@ class Car:
 
     def __init__(self):
         """
-        name: Meni Rotblat
-        date: 22-01-2023,
-        description:
+        name: Meni Rotblat\n
+        date: 22-01-2023,\n
+        description:\n
         :parameter
         init:
         self.s =
@@ -55,7 +55,7 @@ class Car:
         self.fuel_temp =
         """
         self.s = sched.scheduler(time.time, time.sleep)
-        self.config = dotenv.dotenv_values("C:\Python\paiCharm\Car\.env")
+        self.config = dotenv.dotenv_values(dotenv_path=dotenv.find_dotenv(".env"))
         self.fuel_co = int(self.config["FUEL_CO"])
         self.money = int(self.config["MONEY"])
         self.cust_per_liter = int(self.config["CUST_PER_LITER"])
@@ -69,9 +69,9 @@ class Car:
 
     def start_engine(self):
         """
-        name: Meni Rotblat
-        date: 22-01-2023,
-        description: turn on the engine car
+        name: Meni Rotblat\n
+        date: 22-01-2023,\n
+        description: turn on the engine car\n
         input: None
         output: None
         """
@@ -79,26 +79,26 @@ class Car:
 
     def drive(self, km):
         """
-        name: Meni Rotblat
-        date: 22-01-2023,
+        name: Meni Rotblat\n
+        date: 22-01-2023,\n
         description: get km from user, after checking validations: if needs to
-                    fuel gas => go to refueling method, else, keep going
-        input: km
+                    fuel gas => go to refueling method, else, keep going\n
+        input: km\n
         output: None
         """
         if self.engine_up is False:
-            raise ValueError("engine is down")
-        if km < 1:
-            raise ValueError("value is not valid")
+            raise ValueError(self.config["VALUE_ERR_DRIVE1"])
+        if km < 0:
+            raise ValueError(self.config["VALUE_ERR_DRIVE2"])
         if type(km) != int:
-            raise TypeError("type of a value is not valid")
+            raise TypeError(self.config["TYPE_ERR_DRIVE"])
 
         culc_fuel_left = (self.fuel_temp - (km // self.fuel_co))
 
         if culc_fuel_left < 1:
             self.refueling(abs(culc_fuel_left + (km // self.fuel_co)))
-        if culc_fuel_left < 10:
-            warnings.warn(f"litter to drive in: {culc_fuel_left}")
+        if 10 > culc_fuel_left > 0:
+            warnings.warn(f'{self.config["WARNINGS_WARN_DRIVE"]} {culc_fuel_left}')
         self.km -= km
         if self.fuel_temp - (km // self.fuel_co) > 0:
             self.fuel_temp -= (km // self.fuel_co)
@@ -108,38 +108,38 @@ class Car:
 
     def shift_up(self):
         """
-        name: Meni Rotblat
-        date: 22-01-2023,
-        description: increase gear after check validation
-        input: None
+        name: Meni Rotblat\n
+        date: 22-01-2023,\n
+        description: increase gear after check validation\n
+        input: None\n
         output: None
         """
         if self.gear == 6:
-            raise OverflowError("your not able raise to 7 gear")
+            raise OverflowError(self.config["OVER_FLOW_ERROR_SHIFT_UP"])
         else:
             self.gear += 1
             self.kph = self.kph * self.gear
 
     def shift_down(self):
         """
-        name: Meni Rotblat
-        date: 22-01-2023,
-        description: decrease gear after check validation
-        input: None
+        name: Meni Rotblat\n
+        date: 22-01-2023,\n
+        description: decrease gear after check validation\n
+        input: None\n
         output: None
         """
         if self.gear == 0:
-            raise OverflowError("your not able bring down to under 0 gear")
+            raise OverflowError(self.config["OVER_FLOW_ERROR_SHIFT_DOWN"])
         else:
             self.gear -= 1
             self.kph = self.kph * self.gear  # kph take goal off kph (30) and double it as number of gears
 
     def break_d(self):
         """
-        name: Meni Rotblat
-        date: 22-01-2023,
-        description: stop for driving
-        input: None
+        name: Meni Rotblat\n
+        date: 22-01-2023,\n
+        description: stop for driving\n
+        input: None\n
         output: None
         """
         self.kph = 0
@@ -147,10 +147,10 @@ class Car:
 
     def get_properties(self):
         """
-        name: Meni Rotblat
-        date: 22-01-2023,
-        description: print selected properties
-        input: None
+        name: Meni Rotblat\n
+        date: 22-01-2023,\n
+        description: print selected properties\n
+        input: None\n
         output: None
         """
         print(f"""
@@ -160,10 +160,10 @@ class Car:
 
     def stop_engine(self):
         """
-        name: Meni Rotblat
-        date: 22-01-2023,
-        description: shutdown the engine
-        input: None
+        name: Meni Rotblat\n
+        date: 22-01-2023,\n
+        description: shutdown the engine\n
+        input: None\n
         output: None
         """
         self.engine_up = False
@@ -171,22 +171,23 @@ class Car:
 
     def refueling(self, l):
         """
-        name: Meni Rotblat
-        date: 22-01-2023,
-        description: refueling gas after make sure that we have money for that and validation
-        input: l, litters we want to fuel
+        name: Meni Rotblat\n
+        date: 22-01-2023,\n
+        description: refueling gas after make sure that we have money for that and validation\n
+        input: l, litters we want to fuel\n
         output: None
         """
         if type(l) != int:  # make suer that l is int
-            raise TypeError("value needs to be a integer number type")
+            raise TypeError(self.config["TYPE_ERR_REFUELING"])
         if self.money < 1:  # make sure that we have enough money
-            raise ValueError("There is no money")
-        if l > 50:  # make sure that we don't jump upper fuel capacity
-            raise ValueError("your fuel is up to 50 litter capacity")
+            raise ValueError(self.config["VALUE_ERR_REFUELING1"])
+        if l > self.fuel_capacity:  # make sure that we don't jump upper fuel capacity
+            raise ValueError(self.config["VALUE_ERR_REFUELING2"])
         elif l < 1:  # make sure that we don't jump down from minimum fuel capacity
-            raise ValueError("the mount needs to be up to 0")
+            raise ValueError(self.config["VALUE_ERR_REFUELING3"])
         if self.money * l < self.money:  # money calculating
-            raise ValueError("there is no money for this ride ")
+            raise ValueError(self.config["VALUE_ERR_REFUELING4"])
         if self.fuel_capacity <= (self.fuel_temp + l):  # fuel capacity calculating
             self.fuel_temp += l
+            self.km += (l * self.fuel_co)
         self.money -= (l * self.cust_per_liter)
