@@ -1,0 +1,666 @@
+
+                     name: Meni Rotblat
+                     date: 2023-01-22 13:39:28.398057, 
+                     description:unsupported operand type(s) for *: 'NoneType' and 'int'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 14:58:21.439097, 
+                     description:PASS
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:07:37.377401, 
+                     description:assert None
+ +  where None = <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>>(1, 1)
+ +    where <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.assertEqual
+ +    and   1 = <Car.car.Car object at 0x0000028ACEDECB20>.gear
+ +      where <Car.car.Car object at 0x0000028ACEDECB20> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.car
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:09:04.892580, 
+                     description:assert None
+ +  where None = <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>>(1, 1)
+ +    where <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.assertEqual
+ +    and   1 = <Car.car.Car object at 0x0000023E89E4CA30>.gear
+ +      where <Car.car.Car object at 0x0000023E89E4CA30> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.car
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:10:10.566320, 
+                     description:1 != 0
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:10:44.142611, 
+                     description:1 != -1
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:13:09.729216, 
+                     description:assert None
+ +  where None = <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>>(1, 1)
+ +    where <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.assertEqual
+ +    and   1 = <Car.car.Car object at 0x000001D5944309A0>.gear
+ +      where <Car.car.Car object at 0x000001D5944309A0> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.car
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:15:11.948058, 
+                     description:PASS
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:15:11.949056, 
+                     description:assert None
+ +  where None = <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>>(1, 1)
+ +    where <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.assertEqual
+ +    and   1 = <Car.car.Car object at 0x0000022011E20A00>.gear
+ +      where <Car.car.Car object at 0x0000022011E20A00> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.car
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:15:56.711548, 
+                     description:assert None
+ +  where None = <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>>(1, 1)
+ +    where <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.assertEqual
+ +    and   1 = <Car.car.Car object at 0x0000019BA453CAC0>.gear
+ +      where <Car.car.Car object at 0x0000019BA453CAC0> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.car
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:16:20.990351, 
+                     description:assert None
+ +  where None = <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>>(1, 1)
+ +    where <bound method patch_unittest_diff.<locals>._patched_equals of <Car.car_unittest.MyTestCase testMethod=test_shift_down>> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.assertEqual
+ +    and   1 = <Car.car.Car object at 0x0000018FAEC08A00>.gear
+ +      where <Car.car.Car object at 0x0000018FAEC08A00> = <Car.car_unittest.MyTestCase testMethod=test_shift_down>.car
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:26:46.105587, 
+                     description:test pass, function - test_start_engine, params - ar.start_engine()
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:29:53.932172, 
+                     description:test pass, function - test_start_engine, params - ar.start_engine()
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:38:16.868579, 
+                     description:NOT PASS
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:40:03.052957, 
+                     description:PASS
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:45:05.252165, 
+                     description:test pass, function - test_start_engine, params - ar.start_engine(), description - {AssertionError('assert True is False\n +  where True = <Car.car.Car object at 0x00000207E21E0AC0>.engine_up\n +    where <Car.car.Car object at 0x00000207E21E0AC0> = <Car.car_unittest.MyTestCase testMethod=test_start_engine>.car')}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:45:22.392291, 
+                     description:test pass, function - test_start_engine, params - ar.start_engine()
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:46:17.259994, 
+                     description:test pass, function - test_start_engine, params - ar.start_engine(), description - {TypeError("patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'")}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:48:07.774465, 
+                     description:test fail, function - test_start_engine, params - ar.start_engine(), description - {"patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'"}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:48:57.184053, 
+                     description:test fail, function - test_start_engine
+, params - ar.start_engine()
+, description - {("patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'",)}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:52:40.094118, 
+                     description:test fail, function - test_start_engine
+	, params - ar.start_engine()
+	, description - {TypeError("patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'")}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:52:52.066318, 
+                     description:test fail, function - test_start_engine
+			, params - ar.start_engine()
+	, description - {TypeError("patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'")}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:53:03.706637, 
+                     description:test fail, function - test_start_engine
+					, params - ar.start_engine()
+	, description - {TypeError("patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'")}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:53:26.300132, 
+                     description:test fail, function - test_start_engine, params - 
+					ar.start_engine()
+	, description - {TypeError("patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'")}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:54:13.139923, 
+                     description:test fail, function - test_start_engine
+					, params -  ar.start_engine()
+					
+	, description - {TypeError("patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'")}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:55:26.148296, 
+                     description:test fail, function - test_start_engine
+					, params -  ar.start_engine()
+					, description - {TypeError("patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'")}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:56:40.136685, 
+                     description:test fail function - test_start_engine
+					 params -  ar.start_engine()
+					 description - {TypeError("patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'")}
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:57:42.912585, 
+                     description:test pass function - test_stop_engine params - ar.stop_engine()
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 15:59:20.737476, 
+                     description:test fail function - test_start_engine
+					 params -  ar.start_engine()
+					 description - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:00:52.689465, 
+                     description:test fail function - 
+					test_start_engine
+					 params -  ar.start_engine()
+					 description - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:02:28.043479, 
+                     description:test fail function - test_start_engine
+					 params -  ar.start_engine()
+					 description - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:03:24.199944, 
+                     description:test fail function - test_start_engine
+					 params -  ar.start_engine()
+					 description - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:15:25.427368, 
+                     description:PASS
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:15:25.431166, 
+                     description:PASS
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:15:25.434166, 
+                     description:test fail function - test_start_engine
+					 params -  ar.start_engine()
+					 description - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:15:25.437735, 
+                     description:test pass function - test_stop_engine params - ar.stop_engine()
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:16:42.240685, 
+                     description:PASS
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:16:42.247695, 
+                     description:PASS
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:16:42.250693, 
+                     description:test fail function - test_start_engine
+					 params -  ar.start_engine()
+					 details - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:16:42.256695, 
+                     description:test pass function - test_stop_engine params - ar.stop_engine()
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:23:15.717245, 
+                     description:test fail function - test_start_engine
+					 params -  engine_up
+					 details - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:24:07.489391, 
+                     description:test fail function - test_start_engine
+					 params -  engine_up
+					 details - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:24:15.370534, 
+                     description:test fail function - test_start_engine
+					 params -  engine_up
+					 details - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:25:46.989749, 
+                     description:test fail function - test_start_engine
+					 params -  engine_up
+					 details - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:26:33.981686, 
+                     description:test fail function - test_start_engine
+					 params -  engine_up
+					 details - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:27:30.118622, 
+                     description:test fail function - test_start_engine
+					 params -  engine_up
+					 details - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 16:28:28.842122, 
+                     description:test fail function - test_start_engine
+					 params -  engine_up
+					 details - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 19:20:48.688453, 
+                     description:test fail function - test_start_engine
+					 params -  engine_up
+					 details - patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 19:21:59.403642, 
+                     description:test pass function - test_start_engine params - engine_up
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 19:22:42.120376, 
+                     description:test pass function - test_start_engine
+					 params - engine_up
+					
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 19:23:02.039656, 
+                     description:test pass function - 
+test_start_engine
+					 params - engine_up
+					
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 19:25:14.165996, 
+                     description:
+                     test pass function - 
+test_start_engine
+					 params - engine_up
+					
+                     
+                     name: Meni Rotblat
+                     date: 2023-01-22 19:26:07.415856, 
+                     description: test pass function - test_start_engine
+					 params - engine_up
+					
+                     
+                     name: Meni Rotblat.
+                     date: 2023-01-22 19:27:12.760004. 
+                     description: test pass function - test_start_engine
+					 params - engine_up
+					.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:28:18.292442. 
+description: test pass function - test_start_engine
+					 params - engine_up
+					.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:28:49.248644. 
+description: test pass function - test_start_engine params - engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:28:59.469777. 
+description: test fail function - test_start_engine
+					 params -  engine_up
+					 details - True != False.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:29:23.645906. 
+description: test fail function - test_start_engine
+ params -  engine_up
+ details - True != False.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:30:22.090987. 
+description: test fail function - test_start_engine
+ params - engine_up
+ details - True != False.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:31:12.695378. 
+description: test fail function - test_start_engine,
+ params - engine_up
+ details - True != False.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:32:29.729104. 
+description: test fail => function: test_start_engine,
+ params: engine_up
+ details: True != False.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:33:09.197711. 
+description: test pass => function: test_start_engine, params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:36:48.516767. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:39:33.712770. 
+description: test pass => function: shift_up
+, params: raise except OverflowError
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:40:14.951492. 
+description: PASS.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 19:46:11.236752. 
+description: test pass => function: shift_down
+, params: raise except OverflowError, gear, shift_up
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 20:04:04.407733. 
+description: test fail => function: break_d,
+ params: kph details: gear
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 20:05:59.893959. 
+description: test fail => function: break_d,
+ params: kph details: gear
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 20:07:38.339840. 
+description: test fail => function: break_d,
+ params: ('kph', 'gear\n') details: patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 20:10:34.702591. 
+description: test fail => function: break_d,
+ params: ('kph', 'gear') details: /n patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 20:11:18.220537. 
+description: test fail => function: break_d,
+ params: ('kph', 'gear') details: 
+patch_unittest_diff.<locals>._patched_equals() missing 1 required positional argument: 'second'.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 20:12:24.184758. 
+description: test pass => function: break_d
+, params: ('kph', 'gear\n').
+                     
+name: Meni Rotblat.
+date: 2023-01-22 21:58:21.070685. 
+description: test fail => function: get_properties,
+ params: get_properties details: 
+None == None.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 21:58:52.220939. 
+description: test fail => function: get_properties,
+ params: get_properties details: 
+name 'string' is not defined.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 21:59:29.049571. 
+description: test pass => function: get_properties
+, params: get_properties.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 21:59:43.925059. 
+description: test pass => function: get_properties
+, params: get_properties.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 21:59:57.991046. 
+description: test fail => function: get_properties,
+ params: get_properties details: 
+None == None.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 22:00:59.990572. 
+description: test fail => function: get_properties,
+ params: get_properties details: 
+None == None.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 22:01:23.301588. 
+description: test fail => function: get_properties,
+ params: get_properties details: 
+None == None.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 22:02:03.375758. 
+description: test pass => function: get_properties
+, params: get_properties.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 22:02:31.462573. 
+description: test pass => function: get_properties
+, params: get_properties.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 22:13:17.045374. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 22:16:49.302706. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 22:41:54.362186. 
+description: 'Car' object has no attribute 'car_shutdown'.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 23:05:37.644929. 
+description: your fuel is up to 50 capacity.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 23:11:53.863565. 
+description: your fuel is up to 50 capacity.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 23:52:15.307777. 
+description: the mount needs to be up to 0.
+                     
+name: Meni Rotblat.
+date: 2023-01-22 23:54:54.740148. 
+description: the mount needs to be up to 0.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:14:00.262988. 
+description: there is no gas.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:16:17.177092. 
+description: there is no gas.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:18:49.711182. 
+description: your fuel is up to 50 capacity.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:24:03.328677. 
+description: test fail => function: stop_engine,
+ params: engine_up
+ details: 'Car' object has no attribute 'test_refueling'.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:24:46.336512. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:28:29.410444. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:42:22.296659. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:43:52.955494. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:45:21.366499. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:46:05.778111. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:46:28.012702. 
+description: test pass => function: break_d
+, params: ('kph', 'gear\n').
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:46:28.017793. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:46:28.021771. 
+description: test pass => function: get_properties
+, params: get_properties.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:46:28.024872. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:46:28.026774. 
+description: test pass => function: shift_down
+, params: raise except OverflowError, gear, shift_up
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:46:28.029859. 
+description: test pass => function: shift_up
+, params: raise except OverflowError
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:46:28.032769. 
+description: test pass => function: test_start_engine, params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 00:46:28.037355. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 01:33:38.648411. 
+description: test pass => function: test_start_engine, params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 01:42:28.479637. 
+description: test fail => function: stop_engine,
+ params: engine_up
+ details: argument of type 'int' is not iterable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 01:43:52.937418. 
+description: test pass => function: stop_engine params: engine_up.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 01:45:09.549572. 
+description: test pass => function: shift_up
+, params: raise except OverflowError
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 01:46:12.575536. 
+description: test pass => function: shift_down
+, params: raise except OverflowError, gear, shift_up
+.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 01:47:05.746428. 
+description: test pass => function: break_d
+, params: ('kph', 'gear\n').
+                     
+name: Meni Rotblat.
+date: 2023-01-23 01:47:54.137923. 
+description: test fail => function: get_properties,
+ params: get_properties details: 
+argument of type 'NoneType' is not iterable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:05:50.995797. 
+description: test fail => function: get_properties,
+ params: get_properties details: 
+argument of type 'NoneType' is not iterable.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:06:27.242530. 
+description: test fail => function: get_properties,
+ params: get_properties details: 
+assert None is str
+ +  where None = <bound method Car.get_properties of <Car.car.Car object at 0x0000017889198700>>()
+ +    where <bound method Car.get_properties of <Car.car.Car object at 0x0000017889198700>> = <Car.car.Car object at 0x0000017889198700>.get_properties.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:06:56.844947. 
+description: test pass => function: get_properties
+, params: get_properties.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:08:43.315007. 
+description: test pass => function: refueling params: raise.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:09:26.128279. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:11:02.398526. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:11:54.356987. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:12:14.809068. 
+description: test fail => function: drive,
+ params: raise
+ details: engine is down.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:12:44.704727. 
+description: test fail => function: drive,
+ params: raise
+ details: assert 995 == 45
+ +  where 995 = <Car.car.Car object at 0x00000207AADD8B50>.km.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:14:18.962561. 
+description: test fail => function: drive,
+ params: raise
+ details: value needs to be a integer number type.
+                     
+name: Meni Rotblat.
+date: 2023-01-23 02:14:59.270400. 
+description: test pass => function: drive params: raise.
+                     
